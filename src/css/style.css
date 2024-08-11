@@ -1,5 +1,5 @@
-body{
-    font-family: "Poppins",sans-serif;
+body {
+    font-family: "Poppins", sans-serif;
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -27,7 +27,7 @@ body{
     min-height: 100vh;
 }
 
-.info h1{
+.info h1 {
     font-size: 35px;
     color: #ffffff;
     margin-bottom: 80px;
@@ -35,28 +35,28 @@ body{
     letter-spacing: 8px;
 }
 
-@font-face{
+@font-face {
     font-family: "GOT";
     src: url(../fonts/GOT.ttf);
 }
 
-.info .descricao{
+.info .descricao {
     width: 49%;
-	font-size: 24px;
-	color: #ffffff;
-	line-height: 40px;
-	height: 300px;
-	overflow: auto;
-	padding-right: 15px;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 40px;
+    height: 300px;
+    overflow: auto;
+    padding-right: 15px;
 }
 
-.btns-carrossel{
+.btns-carrossel {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.btns-carrossel .btn{
+.btns-carrossel .btn {
     background-color: #ffffff;
     width: 15px;
     height: 15px;
@@ -69,24 +69,24 @@ body{
     cursor: pointer;
 }
 
-.btns-carrossel .btn.selecionado{
+.btns-carrossel .btn.selecionado {
     background-color: #1d8346;
 }
 
-.img{
+.img {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
     display: none;
 }
 
-.img.ativa{
+.img.ativa {
     display: block;
     animation: mudarImagem 0.7s ease-in-out;
     -webkit-animation: mudarImagem 0.7s ease-in-out;
 }
 
-main::after{
+main::after {
     content: "";
     min-height: 100vh;
     width: 100vw;
@@ -98,10 +98,11 @@ main::after{
 }
 
 @keyframes mudarImagem {
-    from{
+    from {
         opacity: 0.85;
     }
-    to{
+
+    to {
         opacity: 1;
     }
 }
